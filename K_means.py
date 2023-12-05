@@ -21,7 +21,7 @@ class Kmeans(object):
         self.X["cluster"] = None
 
         for iteration in range(iterations):
-            print(f"Iteracion numero: {iteration}")
+
             centroides_nuevos = [[0 for j in range(len(self.columns))] for i in range(self.k)]
             elementos_cluster = [0 for i in range(self.k)]
             clusters = []
